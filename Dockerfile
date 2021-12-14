@@ -1,4 +1,4 @@
-FROM google/cloud-sdk:latest
+FROM gcr.io/google.com/cloudsdktool/cloud-sdk:latest
 
 ENV GOOGLE_PROJECT fake-project
 ENV DATASTORE_CONSISTENCY 0.9
